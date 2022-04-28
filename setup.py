@@ -6,7 +6,6 @@ from setuptools import setup, find_packages
 from zdrive.version import VERSION
 
 __version__ = VERSION
-os.system("pip3", "install", "-r", "requirements.txt")
 
 if sys.version_info[:2] <= (2, 7):
     with open("README.rst") as f:
