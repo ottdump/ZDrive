@@ -27,7 +27,6 @@ setup(
     url='https://github.com/ab-anand/Zdrive',
     license='MIT',
     install_requires=[
-        "pathlib >= 1.0.1",
         "setuptools >= 44.1.1",
         "google-auth-oauthlib >= 0.4.4"
     ],
